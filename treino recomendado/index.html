@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+    
+    <style>
+        img{
+            width:100% ;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Abra esse site em diferentes dispositivos e veja o que acontece com a imagem:</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/phonefoto.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/tablet.jpg" type="image/jpg">
+        <img src="imagens/project_C-118_image_predio_comercial_.jpg" alt="Foto de predío e carros">
+    </picture>
+    <img class="img" src="imagens/project_C-118_image_predio_comercial_.jpg" alt="teste">
+    
+</body>
+</html>

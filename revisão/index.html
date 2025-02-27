@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <style>
+        *{
+            margin: 0px;
+           
+        }
+        header{
+            background-image: linear-gradient(to right, #43B3B9 , #AC77C5 , #EB6690 );
+            height: 100px;
+            font-size: 3em;
+            text-shadow:  0px 0px 2px black;
+            padding: 10px;
+            margin-bottom: 10px;
+
+        }
+        a{
+            font-size: 16px;
+            text-shadow: none;
+            margin-right: 20px;
+            margin-left: 1px;
+            color: white;
+            padding: 5px;
+            margin-bottom: 1px;
+            border-radius: 4px;
+            text-decoration: none;
+            
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            height: 100px;
+        }
+        address{
+            background-color: blue;
+            display: inline;
+        }
+        .ancora{
+            margin-bottom: 4px;
+        }
+        .ancora2{
+            margin-top: 0px;
+        }
+        main{
+            margin: auto;
+            width: 500px;
+            text-align: justify;
+        }
+        h1{
+            background-image: linear-gradient(to right, #43B3B9,  #AC77C5, #EB6690 );
+            padding: 2px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .link1:hover{
+            background-color: black;
+           
+        }
+        .link2:hover{
+            background-color: black;
+           
+        }
+        .link3:hover{
+            background-color: black;
+           
+        }
+        .link4:hover{
+            background-color: black;
+           
+        }
+        .lista{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+       Site
+       <nav>
+        <a class="link1" href="#">link</a>
+        <a class="link2" href="#">link</a>
+        <a class="link3" href="#">link</a>
+        <a class="link4" href="#">link</a>
+       </nav>
+
+    </header>
+
+    <main>
+        
+            <h1>Teste</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Non minima ea cumque hic <br><del>repellat nostrum aliquam ratione quod </del><br>consectetur? Possimus distinctio, <br>perferendis dolorem doloremque repellat <br>minus quos laboriosam libero eligendi.</p>
+            <p>&lt;h1&gt; <br>
+                📱 <br>
+            &#x1F4DA</p> <!--Comentário-->
+
+            <section>
+                <h2>Subtitulo</h2>
+                <p><ins>obcaecati dignissimos modi nihil iusto natus, corporis </ins>nesciunt magni vero qui sequi deleniti temporibus possimus eligendi, doloribus beatae voluptatum.</p>
+
+            </section>
+            <section>
+                <h2>Subtitulo</h2>
+                <h3>Subtitulo do &lt;h2&gt;</h3>
+                <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. </em>Placeat, in officiis? Dolorum voluptas, <mark>perferendis culpa quisquam nobis </mark>molestias cupiditate aliquam! Temporibus aperiam laboriosam aliquid<strong> veritatis </strong>laborum placeat quaerat voluptate accusamus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa reiciendis ipsam aperiam aut amet placeat asperiores nisi quam quo dolorum ea dolore, laboriosam ab ipsum, distinctio sunt harum iste provident?</p>
+                <p>x<sup>2</sup> <br>
+                H<sub>2</sub>O</p>
+            </section>
+            <section>
+                <h2>Código</h2>
+                <p><pre>
+                    <code>
+                        module.exports= leftpad;
+                            function leftpad (str, len, ch) {
+                                var i = -1;
+                                if (! ch && ch !== 0) ch = ' ';
+                                len = len - str.length;
+                            }
+                    </code>
+                </pre>
+                </p>
+            </section>
+            <section>
+                <h2>Citações</h2>
+                <p><blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, quas vel. At officia repellat optio doloribus, id assumenda. Id dolor ratione, eligendi reprehenderit dignissimos neque quas delectus vero cupiditate asperiores.</blockquote></p>
+                <p><q> Exemplo de citação  simples para teste.</q></p>
+            </section>
+            <section>
+                <h2>Sigla</h2>
+                <p>Exemplo: <abbr title="HyperText Markup language">HTML</abbr></p>
+            </section>
+            <section>
+                <h2>Listas</h2>
+                <ol>
+                    <li>teste</li>
+                    <li>teste</li>
+                    <li>teste</li>
+                    <li>teste</li>
+                </ol>
+                <ol type="a" start="2">
+                    <li>teste</li>
+                    <li>teste</li>
+                    <li>teste</li>
+                    <li>teste</li>
+                </ol>
+
+                <ul class="lista" type="circle">
+                    <li class="lista">teste</li>
+                    <li>teste</li>
+                    <li>teste</li>
+                    <li>teste</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Âncoras</h2>
+                <p class="ancora"><a href="https://youtu.be/483h6yZT5Mc?si=OqUk6hCJFxgtOjJP" target="_blank" rel="external">Clique aqui</a></p>
+                <p class="ancora2"><a href="pag02.html">Clique aqui para avançar</a></p>
+
+                <p><a href="pasta/pag03.html">Pág 3</a></p>
+                <h2>Links para download</h2>
+                <p><a href="c:\Users\WIN-11-BR-2023\Downloads\favicon.ico" download="favicon.ico" type="image.ico">Baixar</a></p>
+
+            </section>
+            <section>
+                <h2>Áudio</h2>
+                <p><audio src="song/Dixie Outlandish (Sting) - John Deley and the 41 Players.mp3" controls></audio></p>
+            </section>
+            <section>
+                <h2>Vídeos</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZIGpLE5wheY?si=oVqkLK1GhNiJTMBF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+        
+    </main>
+
+    <footer>
+       <p style="display: inline; color: #EB6690;"><strong>Contato</strong>:<address>elysonsants@gmail.com</address> </p>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) ;
+
+   
+    }
+   @font-face {
+    font-family: voltagi;
+    src: url(fontes/HighVoltage.ttf);
+   }
+
+   @font-face {
+    font-family: BebasNeue;
+    src: url(fonte2/BebasNeue\ Bold.otf);
+   }
+
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+  
+
+*{
+    margin: 0;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #37C677,  #268751, #1B623A);
+    height: 200px;
+    box-shadow: 0px 0px 8px 4px #00000077;
+    
+}
+
+
+nav{
+   margin-top: 40px;
+   
+}
+
+.menu{
+    color:  #E8EFEB;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+ 
+}
+
+.menu{
+    margin-left: 10px;
+}
+
+.headertitle{
+    text-align: center;
+    font-family: BebasNeue;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-top: 17px;
+    
+
+    
+    
+  
+    
+    
+}
+
+.headerparagrafo{
+    text-align: center;
+    color: #E8EFEB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu1:hover{
+    background-color: #46b576;
+    color: #004917;
+    
+    
+}
+
+.menu2:hover{
+    background-color: #46b576;
+    color: #004917;
+}
+
+.menu3:hover{
+    background-color: #46b576;
+    color: #004917;
+}
+
+.menu4:hover{
+    background-color: #46b576;
+    color: #004917;
+}
+
+
+
+.title{
+    font-family: idroid;
+    color: #315744;
+    margin: 0px 0px 15px 0px;
+}
+
+.subtitulo{
+    font-family: idroid;
+    color: #316F4D;
+    background-image: linear-gradient(to right, #A0EAC0, #BFF1D3, #E7FBED, white);
+    padding-left: 5px;
+    margin: 15px 0px 15px 0px;
+}
+
+ div{
+    display: inline-block;
+ }
+
+ 
+ .lista2{
+    margin: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 160px;
+ }
+
+ main{
+    width: 800px;
+    background-color: #FFFFFF;
+   
+    margin: auto;
+    text-align: justify;
+    padding: 20px;
+    
+ }
+
+ body{
+    
+    background-color: #E7E5C1;
+ }
+
+ .ancoras{
+    color: #004617;
+    font-weight: bold;
+    text-decoration: none;
+ }
+ p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-indent: 25px;
+ }
+.teste{
+    margin: 15px 250px 15px 250px;
+}
+
+.imgdandroids{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.irinafoto{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+iframe{
+    margin-left: -20px;
+    margin-right: 0px;
+    width: 782px;
+    height: 434px;
+    border-top: 20px solid #195B36;
+    border-left: 29px solid #195B36;
+    border-right: 30px solid #195B36;
+    border-bottom: 20px solid #195B36;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+   
+aside{
+    background-color: #C5EBD6;
+    border-radius: 15px;
+    margin-bottom: 18px;
+   
+    
+}
+
+.asidesubtitle{
+    font-weight: bolder;
+    background-color: #175C33;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    padding: 8px;
+    padding-left: 16px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+    
+    
+}
+.marginparagrafo3{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+.marginparagrafo2{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.marginparagrafo1{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+li::marker{
+    content: "✔ ";
+    
+}
+
+footer{
+    background-color: #1A5C38;
+    margin-top: 20px;
+
+}
+
+#footerp{
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    
+
+}
+
+.conclusao{
+    margin-bottom: 25px;
+}
+
+main{
+    box-shadow: 0px 0px 8px 2px #00000077;
+}
+
+aside{
+    box-shadow:  4px 4px 8px 1px rgba(0, 0, 0, 0.307);
+}
+

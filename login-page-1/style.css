@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.conteiner {
+    width: 350px;
+    height: 410px;
+    background-color: white;
+    border: 1px solid  #DBDBDB;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+input {
+    width: 261px;
+    height: 34px;
+    background-color: #F1F1F1;
+    border: 1px solid #DBDBDB;
+    padding-left: 7px;
+    caret-color: #262626;
+}
+
+input::placeholder {
+    color: #8E8E8E;
+    font-size: 12px;
+    font-family:  "Roboto", serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-2 {
+   
+
+}
+
+.logo {
+    width: 181px;
+    display: block;
+    margin: auto;
+}
+
+.logo-container {
+    padding-top: 26px;
+    padding-bottom: 17px;
+    
+}
+
+.name {
+    padding-bottom: 5px;
+}
+
+.input-password {
+    padding-bottom: 14px;
+}
+
+button {
+    width: 268px;
+    height: 32px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #0095F6;
+    font-family:  "Roboto", serif;
+    font-weight: 600;
+    color: white;
+    border: none;
+    
+}
+
+.linha {
+    height: 0.1px;
+    width: 105px;
+    background-color: #DBDBDB;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.ou {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #8E8E8E;
+}
+
+.margin-ou {
+    margin-bottom: 32px;
+}
+
+.login-facebook {
+    font-weight: 500;
+    font-family:  "Roboto", serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #0095F6;
+
+}
+
+.login-facebook:hover {
+    color: #1877F2;
+}
+
+.esqueceu-a-senha {
+    margin-top: 18px;
+    font-family:  "Roboto", serif;
+    font-size: 14px;
+}
+
+.esqueceu-a-senha-2 {
+    text-decoration: none;
+    color: #0095F6;
+}
+
+.logo-facebook {
+    width: 27px;
+    margin-right: 5px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.cadastro {
+    height: 62px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #262626;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px solid  #DBDBDB;
+    margin-top: 11px;
+    background-color: white;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 19px;
+}
+
+.cadastre-se {
+    color: #0095F6;
+    font-size: 14px;
+    font-family:  "Roboto", serif;
+    margin-left: 4px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.obtenha-o-app {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #262626;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-app-1 {
+    height: 40px;
+    width: 135px;
+    margin-right: 8px;
+}
+
+.img-app-2 {
+    height: 40px;
+    width: 135px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 81px;
+
+}
+
+.link {
+    margin-right: 15px;
+    font-size: 13px;
+    font-family: "Roboto", serif;
+    color: #262626;
+    text-decoration: none;
+    
+
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.idioma {
+    margin-right: 18px;
+
+}
+
+.copy {
+
+}
+
+.caixa-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    font-size: 13px;
+    color: #262626;
+    font-family: "Roboto", serif;
+    margin-bottom: 59px;
+
+}
