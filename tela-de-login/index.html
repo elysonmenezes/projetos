@@ -6,24 +6,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
-<body class="container">
+<body>
     
-        <form action="login.php" method="post" autocomplete="off">
-            <div class="container-center">
-                <h1>Login</h1>
-                <div>
-                    <label for="iemail">E-mail</label>
-                    <input class="principal" type="email" name="email" id="iemail" required autocomplete="off" placeholder="Digite seu e-mail..">
+        <div class="container">
+            <form action="login.php" method="post" autocomplete="off">
+                <div class="container-center">
+                    <h1>Login</h1>
+                    <div>
+                        <label for="iemail">E-mail</label>
+                        <input class="principal" type="email" name="email" id="iemail" required autocomplete="off" placeholder="Digite seu e-mail..">
+                    </div>
+            
+                    <div>
+                        <label for="isenha">Senha</label>
+                        <input class="principal" type="password" name="senha" id="isenha" minlength="8" maxlength="16" required placeholder="Digite sua senha..">
+                    </div>
+                    <div class="botao-container"><input class="botao" type="submit" value="Entrar"></div>
                 </div>
+            </form>
+        </div>
 
-               
-                <div>
-                    <label for="isenha">Senha</label>
-                    <input class="principal" type="password" name="senha" id="isenha" minlength="8" maxlength="16" required placeholder="Digite sua senha..">
-                </div>
-                <div class="botao-container"><input class="botao" type="submit" value="Entrar"></div>
-            </div>
-        </form>
+        <footer>
+            <p>Developed by Elyson.</p>
+        </footer>
 
    
 

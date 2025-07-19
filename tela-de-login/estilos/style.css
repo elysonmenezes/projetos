@@ -97,6 +97,13 @@
         outline: none;
         border-radius: 3px;
     }
+
+    footer > p {
+        color: black;
+        font-size: 1.2em;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 }
 
   
