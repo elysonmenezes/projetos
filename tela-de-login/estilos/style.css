@@ -96,13 +96,6 @@
         outline: none;
         border-radius: 3px;
     }
-
-   footer > p {
-    color: white;
-    text-align: center;
-    font-family: monospace;
-    font-size: 1.2em;
-   }
 }
 
   
