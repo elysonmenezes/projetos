@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -29,7 +33,7 @@ body {
 
 div.banner {
     height: 280px;
-    background-image: url(../imagens/Screenshot_2025-07-21-18-34-52-965_com.google.android.apps.photos.jpg);
+    background-image: url(../imagens/IMG-20250721-WA0002.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -118,24 +122,32 @@ div.menu {
 }
 
 #ipesquisa {
-    padding: 5px;
-    height: 50px;
+    padding: 5px 10px;
+    height: 55px;
     width: 200px;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+    font-family: 'Quicksand', sans-serif;
+    
 }
 #ipesquisa::placeholder {
-    font-size: 1.3em;
+    font-size: 1.1em;
     
 }
 
 input.botao-pesquisar {
     padding: 5px;
-    height: 50px;
+    height: 55px;
     width: 100px;
     font-size: 16px;
-    background-color: #FF7C4D;
-    color: #FFFFFF;
+    background-color: white;
+    color: #FF6A28;
     border: none;
     outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
     
     
 
@@ -143,9 +155,11 @@ input.botao-pesquisar {
 div.container-pesquisa1 {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    align-items: center;
     height: 100px;
     padding: 50px 0px;
+    background-color: #FF6A28;
+   
     
     
    
@@ -154,14 +168,17 @@ div.container-pesquisa1 {
 
 
 div.container-pesquisa2 {
+    background-color: #FF6A28;
 
 }
 
 .h2-destaque {
     text-align: center;
-    background-color: #FF6A28;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FF7C4D;
+    
     color: white;
-    padding: 10px;
+    padding: 30px 10px;
 }
 
 button {
@@ -210,4 +227,64 @@ div.card {
 
 }
 
+/* footer */
+
+
+footer {
+    background-color: #EFEFEF;
+    padding: 10px;
+    margin-top: 100px;
+}
+div.container-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-footer {
+    text-align: center;
+    text-decoration: none;
+    color: #555;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.copy {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    color: #888;
+    margin-bottom: 15px;
+
+
+}
+
+.container-redes-sociais {
+    text-align: center;
+}
+
+.img-redes-sociais {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.ver-mais {
+    width: 200px;
+    height: 50px;
+    font-size: 1.2em;
+    background-color: #FF6A28;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 }
